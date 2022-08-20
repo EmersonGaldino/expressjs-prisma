@@ -55,6 +55,8 @@ app.delete("/todos/:id", async (req, res) => {
     where: { id },
   });
 
+
+
   return res.send({ status: "ok" });
 });
 
